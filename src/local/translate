@@ -1,0 +1,9 @@
+#!/bin/bash
+#urlenc=$(echo -ne "$2" | hexdump -v -e '/1 "%02x"' | sed 's/\(..\)/%\1/g')
+urlout="http://translate.valhook.com/?to=${1}&what=${2}"
+t=$(trans ":$1" "$2" | head -n 1)
+t=${t:4:${#t}-8}
+if [ -z "${t}" ]; then
+    t="No Internet :("
+fi
+terminal-notifier -message "$2" -title "$t" -sender com.apple.Dictionary -open "$urlout"
