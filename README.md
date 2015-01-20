@@ -20,6 +20,7 @@ Translatr supports eight languages.
   - Chinese
 
 To add configure shortuctq for the languages you want, go to *System Preferences > Keyboard > Shortcuts > Services*.
+
 From this panel you may also disable translation services for the languages you do not want.
 
 ##Installation
