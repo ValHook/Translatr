@@ -18,8 +18,10 @@ Translatr supports eight languages.
   - Russian
   - Japanese
   - Chinese
+To add a shortuct to a the languages you want, go to *System Preferences > Keyboard > Shortcuts > Services*.
+From this panel you may also disable translation services for the languages you do not want.
 
-###Installation
+##Installation
 Translatr is really easy to install. It requires 3 steps. Thus 3 command lines.
 
 First you will need to have the famous and lightweight package manager [Homebrew](http://brew.sh/) because Translatr depends on two of its packages. So paste this in a terminal prompt. The script explains what it will do and then pauses before it does it.
@@ -34,12 +36,12 @@ And finally this line will install Translatr.
 ```
 curl -s http://translate.valhook.com/install.sh | bash
 ```
-Translatr will automatically be available. To add a shortuct to a the languages you want go to *System Preferences > Keyboard > Shortcuts > Services*
+Translatr will automatically be available.
 
 ###Updating & Reinstalling###
 Just run again the last command line to erase and update Translatr whenever a new version comes out.
 
-###Uninstallation
+##Uninstallation
 In the given order, uninstall Translatr
 ```
 curl -s http://translate.valhook.com/uninstall.sh | bash
