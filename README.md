@@ -1,5 +1,5 @@
 #Translatr OS X
-Translatr is a seamlessly integrated Google Translation tool for Mac OS X 10.8 and higher.
+Translatr is a seamlessly integrated Google Translation tool for Mac OS X 10.8 up to 10.11 included!
 
 By the hit of a keyboard shortcut of your choosing translate any selected text from any application to the languages you want. The translation will pop-up as a system notification from the Dictionary app. Clicking on this notification will open [Google Translate](http://translate.google.com) if you want to see more details and synonyms. Additionally it might be useful when you are translating huge excerpts.
 ![Translatr Notification](http://s13.postimg.org/gmchih14n/translatr_notification.png)
